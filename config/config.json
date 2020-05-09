@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": "Learning10!",
-    "database": "survey_results",
-    "host": "127.0.0.1",
+    "username": "ikcq6ag51jp9uoxr",
+    "password": "hb0l4t2j8ee0x4hw",
+    "database": "hzdqwsgwyahm241g",
+    "host": "ijj1btjwrd3b7932.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "username": "ikcq6ag51jp9uoxr",
+    "password": "hb0l4t2j8ee0x4hw",
+    "database": "hzdqwsgwyahm241g",
+    "host": "ijj1btjwrd3b7932.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "ikcq6ag51jp9uoxr",
+    "password": "hb0l4t2j8ee0x4hw",
+    "database": "hzdqwsgwyahm241g",
+    "host": "ijj1btjwrd3b7932.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   }
 }
