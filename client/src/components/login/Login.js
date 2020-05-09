@@ -60,9 +60,9 @@ const Login = () => {
         await axios.post('/api/login', { name, value }).then(result => {
             console.log(result);
             setName(`${result.data.firstName} ${result.data.lastName}`);
-            setPassword('')
-            setEmail('')
-            window.location.href = '/quiz'
+            setPassword(`${result.data.password}`)
+            setEmail(`${result.data.password}`)
+            window.location.href = '/welcome'
         })
     }
 
