@@ -8,6 +8,10 @@ var passport = require("./config/passport");
 var PORT = process.env.PORT || 3001;
 var db = require("./models");
 
+if (process.env.JAWSDB_URL) {
+  var connection = mysql.createConnection(process.env.JAWSDB_URL)
+}
+
 // Creating express app and configuring middleware needed for authentication
 var app = express();
 app.use(express.urlencoded({ extended: true }));
