@@ -1,0 +1,15 @@
+.signIn {
+    background-color:white;
+    display: block;
+    border-radius: 25px;
+    border: 2px white solid;
+   opacity: .95;
+   padding: 1em;
+  margin-top: 4em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.signInTitle {
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+}

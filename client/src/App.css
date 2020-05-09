@@ -1,0 +1,64 @@
+body {
+background: url(./images/background-image.jpg);
+}
+.App {
+  opacity: .95;
+  text-align: center;
+  border: solid white 5px;
+background-color: white;
+  border-radius: 1em;
+  padding: 1em;
+  margin-top: 4em;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 25px;
+}
+.customChoice {
+  display: block;
+ background-color: rgba(12, 12, 12, 0.877);
+ color: white;
+ border-radius: 25px;
+    border: 2px solid;
+   width: 250px; 
+}
+input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+label {
+  font-family: 'Amatic SC', cursive;
+padding: 12px 12px 12px 12px;
+  margin: auto;
+  position: relative;
+  font-size: 1.5em;
+  cursor: pointer;
+  letter-spacing: 3px;
+  
+}
+.question {
+  font-weight: bolder;
+  font-size: 60px;
+  font-family: 'Amatic SC', cursive;
+}
+.quizResult {
+  font-weight: bolder;
+  font-size: 60px;
+  font-family: 'Amatic SC', cursive;
+}
+.clickDef {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.8em;
+}
+.color-def {
+margin-top: 2em;
+margin-bottom: 2em;
+}
+.button {
+  display: block;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 25px;
+     border: 2px solid;
+    width: 180px;
+    height: 50px; 
+}

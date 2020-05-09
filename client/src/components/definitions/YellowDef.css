@@ -1,0 +1,30 @@
+.yellowSummary {
+    background-color:white;
+    display: block;
+    border-radius: 25px;
+    border: 10px #FFC300 solid;
+   opacity: .95;
+   padding-top: .5em;
+   padding-bottom: .5em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: center;
+
+}
+.yellowTitle {
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.yellowDescription {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
