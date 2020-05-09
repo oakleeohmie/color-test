@@ -4,7 +4,7 @@ import colorQuestions from '../api/colorQuestions';
 import Quiz from '../components/quiz/Quiz';
 import Result from '../components/result/Result';
 import '../App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
