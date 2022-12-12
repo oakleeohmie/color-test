@@ -20,7 +20,7 @@
     "bcryptjs": "^2.4.3",
     "bootstrap": "^4.4.1",
     "concurrently": "^5.1.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-session": "^1.17.1",
     "if-env": "^1.0.4",
     "mysql": "^2.18.1",
